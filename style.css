@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-family: roboto;
+    font-size: 20px;
+    z-index: 1;
+}
+
+body {
+    z-index: 1;
+    height: 200%;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+	width: 13px;
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-track{
+	background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+	background:#00ac25;
+    width:10px;
+	border-radius: 10px;
+  }
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 2vh;
+    z-index: 1;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 8vh;
+    position: relative;
+    color: #000000;
+    width: 100vh;
+    height: 165vh;
+    z-index: 2;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 50px;
+    transition: 1s ease;
+}
+
+.container:hover {
+    -ms-transform: scale(1.09); /* IE 9 */
+	-webkit-transform: scale(1.09); /* Safari 3-8 */
+	transform: scale(05.);
+}
+.container .upper {
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 25px;
+}
+.container h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.container ol {
+    padding-left: 29vh;
+}
+.container .Bereiding {
+    padding-left: 26vh
+}
+.container li {
+    transition: 1s ease;
+}
+
+.container li:hover {
+    -ms-transform: scale(1.01); /* IE 9 */
+	-webkit-transform: scale(1.01); /* Safari 3-8 */
+	transform: scale(1.);
+}
+
+.container img {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.container .alert-message {
+    padding: 10px 6px;
+    background: #d4edda;
+    color: rgb(26, 189, 12);
+    width: 78%;
+    margin: 6px 0px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    transition: 1s ease;
+}
+
+.container .alert-message:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+	-webkit-transform: scale(1.02); /* Safari 3-8 */
+	transform: scale(05.);
+}
+
+.container .alert-message p {
+    text-align: center;
+    font-size: 15px;
+}
