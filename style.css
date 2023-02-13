@@ -9,7 +9,7 @@ html {
 
 body {
     z-index: 1;
-    height: 200%;
+    height: 220%;
     overflow: overlay;
 }
 
@@ -21,7 +21,7 @@ body {
 	background-color: transparent;
   }
   ::-webkit-scrollbar-thumb {
-	background:#00ac25;
+	background:#00000033;
     width:10px;
 	border-radius: 10px;
   }
@@ -33,6 +33,68 @@ h1 {
     z-index: 1;
     position: relative;
 }
+
+nav {
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 100px;
+    transition: 1s ease;
+    width: 90%;
+    margin: 6px 10px;
+    display: block;
+    padding: 6px 60px;
+    margin: 0 auto;
+    position: sticky;
+}
+
+nav:hover {
+    -ms-transform: scale(1.01); /* IE 9 */
+	-webkit-transform: scale(1.01); /* Safari 3-8 */
+	transform: scale(05.);
+}
+
+nav h1{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0.4vh;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000
+}
+
+nav li {
+    margin: 1vh;
+    position: relative;
+    list-style-type: none;
+    display: inline;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    padding: 10px 150px;
+    border-radius: 50px;
+    transition: 1s ease;
+}
+
+nav li:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    color: #ffffff;
+    background-color: #cecece;
+    -ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(05.);
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* --------------------Recept 1-------------------------- */
 
 .container {
     margin: 0 auto;
@@ -106,6 +168,85 @@ h1 {
 }
 
 .container .alert-message p {
+    text-align: center;
+    font-size: 15px;
+}
+
+/* --------------------Recept 2-------------------------- */
+
+
+.container-2 {
+    margin: 0 auto;
+    margin-top: 8vh;
+    position: relative;
+    color: #000000;
+    width: 100vh;
+    height: 165vh;
+    z-index: 2;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 50px;
+    transition: 1s ease;
+}
+
+.container-2:hover {
+    -ms-transform: scale(1.09); /* IE 9 */
+	-webkit-transform: scale(1.09); /* Safari 3-8 */
+	transform: scale(05.);
+}
+.container-2 .upper {
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 25px;
+}
+.container-2 h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-2 ol {
+    padding-left: 29vh;
+}
+.container-2 .Bereiding {
+    padding-left: 26vh
+}
+.container-2 li {
+    transition: 1s ease;
+}
+
+.container-2 li:hover {
+    -ms-transform: scale(1.01); /* IE 9 */
+	-webkit-transform: scale(1.01); /* Safari 3-8 */
+	transform: scale(1.);
+}
+
+.container-2 img {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.container-2 .alert-message {
+    padding: 10px 6px;
+    background: #d4edda;
+    color: rgb(26, 189, 12);
+    width: 78%;
+    margin: 6px 0px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    transition: 1s ease;
+}
+
+.container-2 .alert-message:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+	-webkit-transform: scale(1.02); /* Safari 3-8 */
+	transform: scale(05.);
+}
+
+.container-2 .alert-message p {
     text-align: center;
     font-size: 15px;
 }
